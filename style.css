@@ -1,0 +1,314 @@
+/*Default CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.img{
+    max-width: 100%;
+}
+
+/* header-section */
+.header-section {
+}
+.header-section .menu {
+}
+.header-section .menu ul {
+    background-color: #000000;
+    text-align: center;
+}
+.header-section .menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 27px 17px;
+    font-size: 15px;
+}
+.header-section .menu ul li a { 
+    color: white;
+    text-decoration: none;
+}
+
+/* 2nd menu */
+.header-section .menu ul li ul{
+    position: absolute;
+    background-color: black;
+    top: 70px;
+    opacity: 0;
+    visibility: hidden;
+    border-top: 5px solid rgb(49, 150, 239);
+}
+.header-section .menu ul li ul li{
+    width: 250px;
+    display: block;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(51, 50, 50);
+    
+}
+.header-section .menu ul li ul li a{}
+
+/* Hover Part */
+.header-section .menu ul li:hover >a{
+    color: #ddd;
+}
+.header-section .menu ul li:hover > ul{
+   opacity: 1;
+   visibility: visible;
+}
+.header-section .menu ul li ul li:hover{
+    background-color: rgb(49, 150, 239);
+   
+}
+
+/* 3rd-menu */
+.header-section .menu ul li ul li ul{
+    left: 100%;
+    top: 39px;
+    
+}
+.header-section .menu ul li ul li ul li{}
+.header-section .menu ul li ul li ul li a{}
+
+/* Banner Section */
+.banner-seciton{
+        
+}
+.banner-seciton .banner-caption{
+    background: url(./img/young-mens.jpg) no-repeat bottom ;
+    background-size: cover;    
+    height: 700px;
+    margin: auto;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.banner-seciton .banner-caption h1{
+    font-size: 35px;
+    color: #0b0a0a;
+    background: white;
+    display: inline-block;
+    padding: 8px 30px;    
+    margin-top: 225px; 
+    position: absolute;
+    top: 83px;
+    left: 42%;
+}
+
+.banner-seciton .banner-caption-1{
+}
+.banner-seciton .banner-caption p{
+    font-size: 28px;
+    color: #0b0a0a;
+    background: white;
+    display: inline-block;
+    padding: 2px 530px;    
+    margin-top: 320px;
+}
+
+.banner-seciton .banner-caption{
+}
+.banner-seciton .banner-caption button{
+    font-size: 16px;
+    background: red;
+    padding: 6px 20px;    
+    margin-top: 260px;
+    position: absolute;
+    top: 211px;
+    left: 46%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.banner-seciton .banner-caption button:hover{
+    background-color: white;
+    color: #000;
+    border: 2px solid red;
+}
+
+
+/*About Section*/
+.about-section{}
+
+.about-section .position-outside{
+    box-sizing: border-box;
+    border: 1px solid #0000004f;
+    margin: 35px 0px 10px 0px;
+    padding: 3px;
+} 
+
+.about-section .position-outside h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 16px 0px 17px 0px;
+}
+
+.about-section .position-outside .outside{
+    list-style-position: outside;
+}
+
+
+
+/*Service Section*/
+.service-section{}
+
+.service-section .position-inside{
+    box-sizing: border-box;
+    margin: 60px 0px 60px 0px;
+    padding: 3px;
+    box-shadow: 0px 0px 8px 6px #ddd;
+}
+
+.service-section .position-inside h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 16px 0px 17px 0px;
+}
+
+.service-section .position-inside .inside{
+    list-style-position: inside;
+}
+
+
+/* Contact Section */
+.contact-section{}
+
+.contact-section .contact-us{}
+
+.contact-section .contact-us span{}
+
+
+/* Subscribe section */
+.subscribe-section{
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin-bottom: 25px;
+}
+
+.subscribe-section .input-field{
+    text-align: center;
+}
+
+.subsmail {
+	padding: 14px 0px;
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid red;
+	font-size: 15px;
+	width: 600px; 
+}
+
+.subsribe {
+	padding: 13px 0px;
+	margin-left: -4px;
+	border: 1px solid red;
+	font-size: 17px;
+	background-color: red;
+    transition: .5s; 
+	color: white; 
+	width: 200px;
+} 
+.subsribe:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid red;
+}
+/* List Style section */
+.list-style-section{}
+
+.list-style-section .header-liststyle{
+    border: 2px dashed #e3dede;
+    height: 300px;
+}
+.list-style-section .header-liststyle h1{
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.liststyle-items{
+
+    font-size: 16px;
+}
+
+.liststyle-items .list-1{
+    width: 30%;
+    display: inline-block;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.liststyle-items .list-1 ul{
+    list-style-type: upper-roman;
+    display: inline-block;
+}
+.liststyle-items .list-1 ul li{}
+
+.liststyle-items .list-2{ 
+    width: 30%;
+    display: inline-block;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.liststyle-items .list-2 ul{
+    list-style-type: square;
+    margin-left: 50px;
+    display: inline-block; 
+}
+.liststyle-items .list-2 ul li{}
+
+.liststyle-items .list-3{
+    width: 30%;
+    display: inline-block;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.liststyle-items .list-3 ul{
+    list-style-type: lower-greek;
+}
+.liststyle-items .list-3 ul li{}
+
+
+/*Footer Section*/
+.footer{
+    
+}
+.footer-content{
+    background: #000;
+    color: #fff;
+    padding: 15px;
+}
+.footer-content p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-icon{
+   
+    background-color: #000;
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-icon .Social-Menu{ 
+    text-align: center; 
+}
+.footer-icon .Social-Menu li{
+    display: inline-block;
+}
+.footer-icon .Social-Menu li a{
+    color: #1c7ee6b8;
+    font-size: 35px;
+    margin-left: 15px;
+    transition: .5s;
+}
+.footer-icon .Social-Menu li a:hover{
+    color: rgba(231, 231, 21, 0.735);
+}
